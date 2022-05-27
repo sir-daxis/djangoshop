@@ -6,7 +6,7 @@ from .views.home import Index, store
 from .views.singup import Singup
 from .views.login import Login, logout
 from .views.cart import Cart
-from .views.ckeckout import CheckOut
+from .views.checkout import CheckOut
 from .views.orders import OrderView
 from .middlewares.auth import auth_middleware
 
